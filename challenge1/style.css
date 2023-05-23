@@ -1,0 +1,19 @@
+body {
+  background-color: blueviolet;
+}
+
+.pic {
+  width: 250px;
+}
+
+.thebox {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.font {
+  font-family: "Kaushan Script", cursive;
+}
