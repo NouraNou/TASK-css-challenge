@@ -1,0 +1,25 @@
+body {
+  background-image: "/assets/pokemon-bg.jpg";
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+}
+.container {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 15px;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  flex-direction: colum;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}
