@@ -1,11 +1,25 @@
 /* Add your code in each class */
-.container {
+body {
+  background-color: black;
 }
+
+.container {
+  weidth: 400px;
+  height: 300px;
+  background-color: black;
+  overflow: scroll;
+}
+
 .head {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 
 .row {
   /* .row is used in ./index.js not in the html filee */
+  background-color: aquamarine;
+  overflow-y: scroll;
 }
 
 /* This is a gift - Does not need editing */
